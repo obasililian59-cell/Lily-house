@@ -612,3 +612,12 @@ article {
   top: 1150px;
   z-index: -1;
 }
+
+@media(max-width:480px) {
+  .house-container{
+    width: 100%;
+    height: auto;
+    transform: scale(0.3);
+    transform-origin: top left;
+  }
+}
